@@ -1,0 +1,32 @@
+*{
+    font-family: 'Oswald', sans-serif;
+}
+
+:root {
+    --main--black: #1B1C1E;
+    --main--white: #E0E0E0;
+    --main--gray: rgb(63, 63, 63);
+    --main--yellow: rgb(237,174,36);
+}
+
+.bg-main-black{
+    background-color: var(--main--black)
+}
+
+.bg-main-white{
+    background-color: var(--main--white)
+}
+
+.bg-main-yellow{
+    background-color: var(--main--yellow);
+}
+
+/* font-size */
+
+.font-size-20{
+    font-size: 22px;
+}
+
+.text-black{
+    color: black;
+}
