@@ -5,6 +5,7 @@
 :root {
     --main--black: #1B1C1E;
     --main--white: #E0E0E0;
+    --main--white-body: #e0e0e0bc;
     --main--gray: rgb(63, 63, 63);
     --main--yellow: rgb(237,174,36);
 }
@@ -17,6 +18,10 @@
     background-color: var(--main--white)
 }
 
+.bg-main-white-body{
+    background-color: var(--main--white-body)
+}
+
 .bg-main-yellow{
     background-color: var(--main--yellow);
 }
@@ -27,6 +32,13 @@
     font-size: 22px;
 }
 
+.font-size-15{
+    font-size: 15px;
+}
 .text-black{
     color: black;
+}
+
+.bg-img{
+    background-image: url(/assets/imgs/banners/vinyl-banner.jpg);
 }
